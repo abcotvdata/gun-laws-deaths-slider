@@ -1,0 +1,86 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+
+
+
+body {
+   padding: 0px;
+   background-color: white;
+}
+
+.title h2 {
+   background-color: #254b8c;
+   color: white;
+   padding: 5px;
+   margin: 0px;
+}
+
+.title p {
+   font-weight: normal;
+   padding: 5px;
+   padding-top: 0px;
+   margin-top: 5px;
+
+}
+
+.container {
+   position: relative;
+   width: 95%;
+   margin: auto;
+}
+
+.photo1 {
+   width: 100%;
+   z-index: 2;
+   position: relative;
+}
+
+.photo1 img {
+   width: 100%;
+}
+
+.photo2 {
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   opacity: 0;
+}
+
+.photo2 img {
+   width: 100%;
+}
+
+.slider {
+   width: 90%;
+   margin: auto;
+}
+
+.ui-slider-handle {
+   border-radius: 10px;
+}
+
+.footer {
+   font-size: 10px;
+   padding: 5px;
+   padding-top: 10px;
+
+
+}
+
+
+
+
+
